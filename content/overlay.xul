@@ -42,7 +42,6 @@
 						var menuitems = document.querySelectorAll('menuitem[id^="context-imagetweak-"], menuseparator[id^="context-imagetweak-"]');
 						for (var i=0; i<menuitems.length; i++)
 							menuitems[i].hidden = true;
-					}
 					} else {
 						var menuitems = document.querySelectorAll('menuitem[id^="context-imagetweak-"], menuseparator[id^="context-imagetweak-"]');
 						for (var i=0; i<menuitems.length; i++)
